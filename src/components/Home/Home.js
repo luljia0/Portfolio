@@ -6,6 +6,7 @@ import Home2 from "./Home2";
 import Type from "./Type";
 import Projects from "../Projects/Projects";
 import About from "../About/About"
+import Experience from "../Experience/Experience";
 
 function Home() {
   return (
@@ -46,6 +47,7 @@ function Home() {
       </Container>
       <Home2 />
       <About />
+      <Experience />
       <Projects />
       
     </section>
