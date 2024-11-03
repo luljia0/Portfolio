@@ -4,10 +4,13 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import Projects from "../Projects/Projects";
+import About from "../About/About"
 
 function Home() {
   return (
     <section>
+      // bootstrap to manage the layout
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
@@ -22,7 +25,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name"> Lulu Jiao</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -42,6 +45,9 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
+      <About />
+      <Projects />
+      
     </section>
   );
 }
